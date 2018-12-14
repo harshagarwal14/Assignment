@@ -5,7 +5,7 @@
     100% {background-color: green;}
   }
 .bg{
-    background-color: cyan;
+    background-color: orange;
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: 2 }
