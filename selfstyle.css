@@ -1,0 +1,243 @@
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+.bg{
+    background-color: violet;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 2 }
+}
+
+.name{
+	margin-top: 5px;
+	font-family: 'Tangerine';
+	font-size: 45px;
+	color: #4d4d4d;
+}
+
+.occupation{
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+	color: #4d4d4d;
+	margin-top: -25px;
+}
+
+nav.navi a{
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 20px;
+	color: #4d4d4d;
+	padding: 0px;
+	border: 2px dotted #4d4d4d;
+	border-radius: 10%; 
+	text-align: center
+}
+
+nav.navi a.current{
+	border: 3px solid #4d4d4d;
+}
+
+.navi>div{
+	display: inline;
+}
+
+nav.navi a:hover{
+	color: white;
+	background-color: #4d4d4d;
+	border-radius: 4px;
+	text-decoration: underline;
+}
+
+img.myPhoto{
+	margin-top: 5px;
+	border-radius: 25%;
+	width: 80%;
+	border: solid #4d4d4d 1px;
+}
+
+.hi{
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 50px;
+	font-weight: 700;
+	color: #4d4d4d;	
+}
+
+.welcome{
+	font-family: 'ALERGIAN', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	color: #4d4d4d;		
+}
+
+.welcome_msg{
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #968989;
+}
+
+.in_nav{
+	margin-top: 25px;
+}
+
+.circle{
+	margin: auto;
+	height: 60px;
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 19px;
+	font-weight: 500;
+	border: 1px solid black;
+	background-color: #d4b861;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.footer{
+	background-color: #161c81;
+}
+
+.icons{
+	border-radius: 50%;
+	background-color: #d4b861; 
+	color: #161c81;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.icontext{
+	color: white;
+}
+
+.icons_in{
+	color: white;
+	font-size: 20px;
+	padding-left: 4px;
+}
+
+
+
+.context{
+	margin-top: 20px;
+}
+
+.context_title{
+	font-family: 'Tangerine', cursive;
+	font-size: 50px;
+	font-weight: 700;
+	color: #4d4d4d;
+	text-decoration: underline;	
+}
+
+.context_body{
+	font-family: 'Arvo', serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.context_body>a{
+	color: black;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.context ul li{
+	font-family: 'Arvo', serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.in_nav a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+.button{
+	width: auto;
+	padding: 3px 5px;
+	font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+	font-weight: 500;
+	border: 1px solid black;
+    background-color: #d4b861;
+    text-align: center;
+    border-radius: 7px;
+	margin: auto;
+}
+
+
+
+.maps{
+	border: 1px solid black;
+	width: 90%;
+	height: 100%;
+}
+
+.contact_icons{
+	color: #4d4d4d;
+	font-size: 50px;
+}
+
+.contact_me{
+	margin: 25px 0px;
+}
+
+.main_nav_button{
+	display: block;
+	float: left;
+	margin: 0px 7px;
+}
+
+#about_me_nav{
+	margin: 0px 7px 0px 22%;
+}
+
+.last_buttons{
+	padding: 15px 5px;
+}
+
+@media(max-width: 767px){
+	body{
+		text-align: center;
+	}
+	
+	p.welcome_msg, p.context_body, .context ul li, 
+	p.projText, li.projText{
+		text-align: justify;
+	}
+
+	div.button{
+		margin: 5px 55px;
+		width: 85%;
+	}
+
+	#long_button1, #long_button2{
+		margin: 5px 58px;
+		width: 85%;
+	}
+
+	.main_nav_button{
+		margin: 2px 0px;
+	}
+
+	#about_me_nav{
+	margin: 0px;
+	}
+
+	div.circle{
+		margin: 2px 0px;
+	}
+
+	#button_m_p_info{
+		padding: 13px 5px;
+	}
+}
+
+@media (min-width:577px) and (max-width: 767px){
+	#button_m_edu{
+		padding: 4px 5px;
+	}
