@@ -10,6 +10,12 @@
     animation-duration: 2s;
     animation-iteration-count: 2 }
 }
+.name{
+	margin-top: 5px;
+	font-family: 'Tangerine';
+	font-size: 45px;
+	color: green;
+}
 
 .occupation{
 	font-family: 'Bradley Hand ITC', cursive;
