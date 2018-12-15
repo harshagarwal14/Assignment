@@ -169,30 +169,13 @@ img.myPhoto{
 	margin: auto;
 }
 
-
-
-.maps{
-	border: 1px solid black;
-	width: 90%;
-	height: 100%;
-}
-
-.contact_icons{
-	color: #4d4d4d;
-	font-size: 50px;
-}
-
-.contact_me{
-	margin: 25px 0px;
-}
-
 .main_nav_button{
 	display: block;
 	float: left;
 	margin: 0px 7px;
 }
 
-#about_me_nav{
+.about_me_nav{
 	margin: 0px 7px 0px 22%;
 }
 
