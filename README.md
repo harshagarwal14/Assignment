@@ -1,5 +1,5 @@
-MY PORTFOLIO WEBSITE
-
-https://harshagarwal14.github.io/portfolio-website/<br>
-Hello, World!<br>
+<b><u>MY PORTFOLIO WEBSITE
+</b></u>
+https://harshagrwl.github.io<br>
+<i>Hello, World!<br></i>
 This is the repository to my Portfolio Website.
