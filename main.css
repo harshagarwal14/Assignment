@@ -10,6 +10,7 @@
     animation-duration: 2s;
     animation-iteration-count: 2 }
 }
+
 .name{
 	margin-top: 5px;
 	font-family: 'Tangerine';
@@ -168,13 +169,14 @@ img.myPhoto{
 	margin: auto;
 }
 
+
 .main_nav_button{
 	display: block;
 	float: left;
 	margin: 0px 7px;
 }
 
-.about_me_nav{
+#about_me_nav{
 	margin: 0px 7px 0px 22%;
 }
 
