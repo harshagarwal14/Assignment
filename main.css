@@ -5,11 +5,8 @@
     100% {background-color: green;}
   }
 .bg{
-    background-color: orange;
-    animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: 2 }
-}
+    background-image: url(bgimage.jpeg);
+    }
 
 .name{
 	margin-top: 5px;
